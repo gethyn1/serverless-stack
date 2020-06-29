@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import netlifyIdentity from "netlify-identity-widget"
 import { Container, Heading, Button, Flex } from 'theme-ui'
 
 export default () => {
+  useEffect(() => {
+    netlifyIdentity.init({})
+  }, [])
+
   return (
     <Container>
       <Flex sx={{ flexDirection: "column", padding: 3 }}>
@@ -9,7 +14,7 @@ export default () => {
         <Button
           sx={{ marginTop: 2 }}
           onClick={() => {
-            alert("clicked")
+            netlifyIdentity.open()
           }}
         >Log In</Button>
       </Flex>
