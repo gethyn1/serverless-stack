@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/gethyn1/serverless-stack#readme",
   "dependencies": {
+    "@theme-ui/presets": "^0.3.0",
     "gatsby": "^2.23.11",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "theme-ui": "^0.3.1"
   }
 }
