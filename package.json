@@ -1,0 +1,27 @@
+{
+  "name": "serverless-stack",
+  "version": "1.0.0",
+  "description": "Serveless stack",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gethyn1/serverless-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gethyn1/serverless-stack/issues"
+  },
+  "homepage": "https://github.com/gethyn1/serverless-stack#readme",
+  "dependencies": {
+    "gatsby": "^2.23.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
